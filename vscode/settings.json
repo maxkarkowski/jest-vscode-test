@@ -1,0 +1,10 @@
+{
+  "jest.pathToJest": "frontend/node_modules/.bin/jest",
+  "jest.pathToConfig": "frontend/jest.config.js",
+  "jest.debugMode": true,
+  "eslint.options": {
+    "parserOptions": {
+      "project": ["./frontend/tsconfig.json"]
+    }
+  }
+}
