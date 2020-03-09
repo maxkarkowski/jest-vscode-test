@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "lib": ["dom", "es2017"],
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2017",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "inlineSourceMap": true,
+    "allowJs": true,
+    "types": ["jest", "ts-jest", "node"],
+    "typeRoots": ["./node_modules/@types", "./local-typings"]
+  },
+
+  "include": ["src/", "types/jsx.d.ts", "__mocks__"],
+  "exclude": ["node_modules", "!node_modules/@types", "src/**/*.test.ts"]
+}
